@@ -1,5 +1,5 @@
 header{
-    height: 100px;
+    height: 125px;
     background-color: teal;
 }
 
@@ -7,9 +7,15 @@ header{
     text-align: center;
 }
 
+.option{
+    margin: 24px 0;
+    padding: 4px;
+}
+
+
 .price{
     display: block;
-    font-size: 24px;
+    font-size: 30px;
     margin:0 auto;
 
 }
@@ -22,9 +28,12 @@ header{
 }
 
 #cart > select,
-#cart > input{
+#cart > input,
+#cart > output{
+    width: 75px;
     margin: 16px;
 }
 output{
     font-weight: 700;
+    width: 100px;
 }
